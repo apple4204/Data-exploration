@@ -12,7 +12,7 @@ print(s)
 #    print(data)
 
 
-outputfile = open(r'C:\vscode\爬蟲\output.csv', 'w', newline='')
+outputfile = open(r'C:\Users\User\Desktop\project\output.csv', 'w', newline='')
 outputwrite = csv.writer(outputfile)
 
 outputwrite.writerow(s['title'])
